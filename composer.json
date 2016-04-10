@@ -1,0 +1,47 @@
+{
+  "name": "kamilsk/silex-service-providers",
+  "type": "library",
+  "description": "Revised set of service providers for Silex.",
+  "keywords": ["web", "silex"],
+  "homepage": "https://github.com/kamilsk/SilexServiceProviders",
+  "license": "MIT",
+  "authors": [
+    { "name": "Kamil Samigullin", "email": "kamil@samigullin.info", "role": "lead" }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "silex/silex": "~1.0",
+    "kamilsk/common": "^2.1.4",
+    "kamilsk/kilex": "~1.0"
+  },
+  "require-dev": {
+    "doctrine/dbal": "~2.0",
+    "symfony/config": "~2.0|~3.0",
+    "symfony/event-dispatcher": "~2.0|~3.0",
+    "symfony/monolog-bridge": "~2.0|~3.0",
+    "symfony/yaml": "~2.0|~3.0"
+  },
+  "suggest": {
+    "doctrine/dbal": "for DoctrineServiceProvider (~2.0 is recommended)",
+    "monolog/monolog": "for use MonologServiceProvider (~1.0 is recommended)",
+    "symfony/config": "for use ConfigServiceProvider (~3.0 is recommended)",
+    "symfony/event-dispatcher": "needed when using log messages in console commands (~3.0 is recommended)",
+    "symfony/monolog-bridge": "optional for MonologServiceProvider (~3.0 is recommended)",
+    "symfony/yaml": "for use ConfigServiceProvider (~3.0 is recommended)"
+  },
+  "autoload": {
+    "psr-4": { "OctoLab\\Silex\\": "src/" }
+  },
+  "autoload-dev": {
+    "psr-4": { "OctoLab\\Silex\\": "tests/" }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    }
+  },
+  "support": {
+    "irc": "irc://irc.gitter.im/kamilsk/small-tools",
+    "issues": "https://github.com/kamilsk/SilexServiceProviders/issues"
+  }
+}
