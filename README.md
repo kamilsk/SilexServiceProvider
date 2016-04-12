@@ -28,6 +28,12 @@ $ cd SilexServiceProviders && composer install
 $ git remote add upstream git@github.com:kamilsk/SilexServiceProviders.git
 ```
 
+#### Mirror
+
+```bash
+$ git remote add mirror git@bitbucket.org:kamilsk/silexserviceproviders.git
+```
+
 ### Composer (production)
 
 ```bash
