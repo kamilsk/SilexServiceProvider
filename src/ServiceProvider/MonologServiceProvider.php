@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types = 1);
+
 namespace OctoLab\Silex\ServiceProvider;
 
 use OctoLab\Kilex\ServiceProvider\MonologServiceProvider as KilexMonologServiceProvider;
