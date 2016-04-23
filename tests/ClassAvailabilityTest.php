@@ -31,13 +31,13 @@ class ClassAvailabilityTest extends ClassAvailability
     {
         static $excluded = [
             // no dependencies
-            '\Silex\ConstraintValidatorFactory' => true,
-            '\Silex\Translator' => true,
+            'Silex\\ConstraintValidatorFactory' => true,
+            'Silex\\Translator' => true,
         ];
-        return strpos($class, 'OctoLab\Common\Doctrine\Migration') === 0
-        || strpos($class, 'Symfony\Component\EventDispatcher') === 0
-        || strpos($class, 'Symfony\Component\HttpKernel') === 0
-        || !empty($excluded[$class])
-        || !empty($excluded['\\' . $class]);
+        return strpos($class, 'Doctrine\\DBAL\\Tools\\Console') === 0
+        || strpos($class, 'OctoLab\\Common\\Doctrine\Migration') === 0
+        || strpos($class, 'Symfony\\Component\\EventDispatcher') === 0
+        || strpos($class, 'Symfony\\Component\\HttpKernel') === 0
+        || !empty($excluded[$class]);
     }
 }
