@@ -2,15 +2,7 @@
 >
 > Revised set of service providers for [Silex](https://github.com/silexphp/Silex).
 
-## What's inside
-
-### [ConfigServiceProvider](docs/ConfigServiceProvider.md)
-
-### [DoctrineServiceProvider](docs/DoctrineServiceProvider.md)
-
-### [MonologServiceProvider](docs/MonologServiceProvider.md)
-
-## [Documentation](http://kamilsk.github.io/SilexServiceProviders/)
+## [Documentation](https://github.com/kamilsk/SilexServiceProviders/wiki)
 
 ## Example of usages
 
@@ -41,6 +33,12 @@ $ composer require kamilsk/silex-service-providers:~1.0
 ```
 
 ## Pulse of repository
+
+| Version / PHP | 5.5 | 5.6 | 7.0 | HHVM | Support                                           |
+|:-------------:|:---:|:---:|:---:|:----:|:--------------------------------------------------|
+| 1.0.x         | +   | +   | +   | +    | Security support and bug fixing until 10 Jul 2016 |
+| 1.1.x LTS     | -   | +   | +   | +    | Security support and bug fixing until 31 Dec 2018 |
+| 2.x           | -   | -   | +   | +    | Active support and new features until 3 Dec 2017  |
 
 ### [Changelog](CHANGELOG.md)
 
