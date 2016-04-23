@@ -20,7 +20,7 @@ class Application extends \Silex\Application
      *
      * @api
      */
-    public function __construct($name, array $values = [])
+    public function __construct(string $name, array $values = [])
     {
         parent::__construct($values);
         $this['app.name'] = $name;

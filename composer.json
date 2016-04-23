@@ -21,12 +21,12 @@
     "symfony/yaml": "~3.0"
   },
   "suggest": {
-    "doctrine/dbal": "for DoctrineServiceProvider (~2.0 is recommended)",
-    "monolog/monolog": "for use MonologServiceProvider (~1.0 is recommended)",
-    "symfony/config": "for use ConfigServiceProvider (~3.0 is recommended)",
+    "doctrine/dbal": "for using DoctrineServiceProvider (~2.0 is recommended)",
+    "monolog/monolog": "for using MonologServiceProvider (~1.0 is recommended)",
+    "symfony/config": "for using ConfigServiceProvider (~3.0 is recommended)",
     "symfony/event-dispatcher": "needed when using log messages in console commands (~3.0 is recommended)",
     "symfony/monolog-bridge": "optional for MonologServiceProvider (~3.0 is recommended)",
-    "symfony/yaml": "for use ConfigServiceProvider (~3.0 is recommended)"
+    "symfony/yaml": "for using ConfigServiceProvider (~3.0 is recommended)"
   },
   "autoload": {
     "psr-4": { "OctoLab\\Silex\\": "src/" }

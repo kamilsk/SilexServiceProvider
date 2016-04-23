@@ -29,7 +29,7 @@ $ git remote add mirror git@bitbucket.org:kamilsk/silexserviceproviders.git
 ### Composer (production)
 
 ```bash
-$ composer require kamilsk/silex-service-providers:~1.0
+$ composer require kamilsk/silex-service-providers:~2.0
 ```
 
 ## Pulse of repository
@@ -51,9 +51,8 @@ $ composer require kamilsk/silex-service-providers:~1.0
 
 ### Code quality
 
-[![Code coverage](https://scrutinizer-ci.com/g/kamilsk/SilexServiceProviders/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/kamilsk/SilexServiceProviders/?branch=master)
-[![Scrutinizer code quality](https://scrutinizer-ci.com/g/kamilsk/SilexServiceProviders/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/kamilsk/SilexServiceProviders/?branch=master)
-[![Code Climate code quality](https://codeclimate.com/github/kamilsk/SilexServiceProviders/badges/gpa.svg)](https://codeclimate.com/github/kamilsk/SilexServiceProviders)
+[![Code coverage](https://scrutinizer-ci.com/g/kamilsk/SilexServiceProviders/badges/coverage.png?b=2.x)](https://scrutinizer-ci.com/g/kamilsk/SilexServiceProviders/?branch=2.x)
+[![Scrutinizer code quality](https://scrutinizer-ci.com/g/kamilsk/SilexServiceProviders/badges/quality-score.png?b=2.x)](https://scrutinizer-ci.com/g/kamilsk/SilexServiceProviders/?branch=2.x)
 
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/a06c3410-e7ba-49bd-980a-17d4b53c39e8/big.png)](https://insight.sensiolabs.com/projects/a06c3410-e7ba-49bd-980a-17d4b53c39e8)
 

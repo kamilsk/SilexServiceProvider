@@ -12,9 +12,9 @@ use Silex\Application as SilexApplication;
 abstract class TestCase extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @return array<int,CilexApplication[]>
+     * @return array
      */
-    public function applicationProvider()
+    public function applicationProvider(): array
     {
         return [
             [new SilexApplication()],
@@ -28,15 +28,17 @@ abstract class TestCase extends \PHPUnit_Framework_TestCase
      *
      * @return ServiceProvider\ConfigServiceProvider
      */
-    protected function getConfigServiceProvider($config = 'config', array $placeholders = ['placeholder' => 'test'])
-    {
+    protected function getConfigServiceProvider(
+        string $config = 'config',
+        array $placeholders = ['placeholder' => 'test']
+    ): ServiceProvider\ConfigServiceProvider {
         return new ServiceProvider\ConfigServiceProvider($this->getConfigPath($config), $placeholders);
     }
 
     /**
      * @return ServiceProvider\ConfigServiceProvider
      */
-    protected function getConfigServiceProviderForMonolog()
+    protected function getConfigServiceProviderForMonolog(): ServiceProvider\ConfigServiceProvider
     {
         return $this->getConfigServiceProvider('monolog/config', ['root_dir' => __DIR__]);
     }
@@ -44,7 +46,7 @@ abstract class TestCase extends \PHPUnit_Framework_TestCase
     /**
      * @return ServiceProvider\ConfigServiceProvider
      */
-    protected function getConfigServiceProviderForDoctrine()
+    protected function getConfigServiceProviderForDoctrine(): ServiceProvider\ConfigServiceProvider
     {
         return $this->getConfigServiceProvider('doctrine/config');
     }
@@ -54,7 +56,7 @@ abstract class TestCase extends \PHPUnit_Framework_TestCase
      *
      * @return string
      */
-    protected function getConfigPath($config = 'config')
+    protected function getConfigPath(string $config = 'config'): string
     {
         return sprintf('%s/app/config/%s.yml', __DIR__, $config);
     }
