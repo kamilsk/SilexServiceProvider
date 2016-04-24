@@ -35,7 +35,7 @@ class ClassAvailabilityTest extends ClassAvailability
             'Silex\\Translator' => true,
         ];
         return strpos($class, 'Doctrine\\DBAL\\Tools\\Console') === 0
-        || strpos($class, 'OctoLab\\Common\\Doctrine\Migration') === 0
+        || strpos($class, 'OctoLab\\Common\\Doctrine\\Migration') === 0
         || strpos($class, 'Symfony\\Component\\EventDispatcher') === 0
         || strpos($class, 'Symfony\\Component\\HttpKernel') === 0
         || !empty($excluded[$class]);

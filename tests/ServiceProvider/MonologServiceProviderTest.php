@@ -33,5 +33,6 @@ class MonologServiceProviderTest extends TestCase
         self::assertEquals($app['logger'], $app['loggers'][$app['config']['monolog:default_channel']]);
         self::assertEquals($app['app.name'], $app['logger']->getName());
         self::assertContains($app['app.name'], ['test', 'app']);
+        self::assertTrue($app->offsetExists('monolog.bridge'));
     }
 }
