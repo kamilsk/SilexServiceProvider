@@ -44,7 +44,7 @@ $ composer require kamilsk/silex-service-providers:~2.0
 
 ### General information
 
-[![Build status](https://travis-ci.org/kamilsk/SilexServiceProviders.svg)](https://travis-ci.org/kamilsk/SilexServiceProviders)
+[![Build status](https://travis-ci.org/kamilsk/SilexServiceProviders.svg?branch=2.x)](https://travis-ci.org/kamilsk/SilexServiceProviders)
 [![Tests status](http://php-eye.com/badge/kamilsk/silex-service-providers/tested.svg?branch=2.x-dev)](http://php-eye.com/package/kamilsk/silex-service-providers)
 [![Latest stable version](https://poser.pugx.org/kamilsk/silex-service-providers/v/stable.png)](https://packagist.org/packages/kamilsk/silex-service-providers)
 [![License](https://poser.pugx.org/kamilsk/silex-service-providers/license.png)](https://packagist.org/packages/kamilsk/silex-service-providers)
