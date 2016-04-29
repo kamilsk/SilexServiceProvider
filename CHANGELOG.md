@@ -3,12 +3,16 @@
 
 # Version 2
 
+## [2.1.0] - Unreleased
+### Changed
+- [git diff](/../../compare/2.0.0...2.x)
+
 ## [2.0.0] - 2016-04-23
 ### Changed
 - PHP support is up to 7.0 version
 - method signature
   - all methods, where it is possible, changed scalar and return type declaration
-- [git diff](/../../compare/1.1.0...2.0.1)
+- [git diff](/../../compare/1.1.0...2.0.0)
 
 # Version 1
 
