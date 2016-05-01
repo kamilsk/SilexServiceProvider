@@ -5,7 +5,8 @@
 | Version?      | 1.0.x / 1.1.x / 2.x
 | What type?    | bug / docs / feature
 
-Output of `composer show | egrep kamilsk/common` or `composer show kamilsk/common | egrep versions` is
+Output of `composer show | egrep kamilsk/silex-service-providers`
+or `composer show kamilsk/silex-service-providers | egrep versions` is
 
 ```
 # please provide output
