@@ -11,7 +11,8 @@
   "require": {
     "php": ">=7.0",
     "silex/silex": "~1.0",
-    "kamilsk/kilex": "~2.0"
+    "kamilsk/common": "3.x-dev",
+    "kamilsk/kilex": "2.x-dev"
   },
   "require-dev": {
     "doctrine/dbal": "~2.0",
