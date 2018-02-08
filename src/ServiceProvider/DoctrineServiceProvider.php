@@ -23,7 +23,7 @@ class DoctrineServiceProvider extends KilexDoctrineServiceProvider implements Se
     /**
      * @param Application $app
      *
-     * @throws \Doctrine\DBAL\DBALException
+     * @throws \InvalidArgumentException
      *
      * @api
      */

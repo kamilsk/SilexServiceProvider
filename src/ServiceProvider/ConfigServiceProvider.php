@@ -25,8 +25,6 @@ class ConfigServiceProvider extends KilexConfigServiceProvider implements Servic
      *
      * @throws \InvalidArgumentException
      * @throws \Exception
-     * @throws \Symfony\Component\Config\Exception\FileLoaderLoadException
-     * @throws \Symfony\Component\Config\Exception\FileLoaderImportCircularReferenceException
      * @throws \DomainException
      *
      * @api
